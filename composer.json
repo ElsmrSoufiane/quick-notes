@@ -11,5 +11,12 @@
             "email": "158359010+ElsmrSoufiane@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+    "laravel": {
+        "providers": [
+            "soufianelasmar\\quicknote\\QuickNotesServiceProvider"
+        ]
+    }
+    } 
 }
