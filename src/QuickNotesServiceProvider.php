@@ -1,13 +1,13 @@
 <?php
 
-namespace Rarq\FilamentQuickNotes;
+namespace soufianelasmar\quicknote;
 
 use Filament\Support\Assets\Css;
 use Filament\Support\Facades\FilamentAsset;
 use Livewire\Features\SupportTesting\Testable;
 use Livewire\Livewire;
-use Rarq\FilamentQuickNotes\Livewire\QuickNotes;
-use Rarq\FilamentQuickNotes\Testing\TestsFilamentQuickNotes;
+use soufianelasmar\quicknote\Livewire\QuickNotes;
+use soufianelasmar\quicknote\Testing\TestsFilamentQuickNotes;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

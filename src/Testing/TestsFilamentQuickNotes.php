@@ -1,6 +1,6 @@
 <?php
 
-namespace Rarq\FilamentQuickNotes\Testing;
+namespace soufianelasmar\quicknote\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

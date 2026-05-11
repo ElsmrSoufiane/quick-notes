@@ -1,8 +1,8 @@
 <?php
 
 use Filament\View\PanelsRenderHook;
-use Rarq\FilamentQuickNotes\Enums\DeletionType;
-use Rarq\FilamentQuickNotes\Models\FilamentQuickNote;
+use soufianelasmar\quicknote\Enums\DeletionType;
+use soufianelasmar\quicknote\Models\FilamentQuickNote;
 
 return [
     /*

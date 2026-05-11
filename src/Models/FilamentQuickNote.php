@@ -1,6 +1,6 @@
 <?php
 
-namespace Rarq\FilamentQuickNotes\Models;
+namespace soufianelasmar\quicknote\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

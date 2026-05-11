@@ -1,9 +1,9 @@
 <?php
 
-namespace Rarq\FilamentQuickNotes\Traits;
+namespace soufianelasmar\quicknote\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Rarq\FilamentQuickNotes\Models\FilamentQuickNote;
+use soufianelasmar\quicknote\Models\FilamentQuickNote;
 
 trait HasFilamentQuickNotes
 {

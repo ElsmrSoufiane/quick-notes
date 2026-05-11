@@ -1,6 +1,6 @@
 <?php
 
-namespace Rarq\FilamentQuickNotes\Enums;
+namespace soufianelasmar\quicknote\Enums;
 
 enum DeletionType: string
 {

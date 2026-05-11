@@ -1,13 +1,13 @@
 <?php
 
-namespace Rarq\FilamentQuickNotes\Livewire;
+namespace soufianelasmar\quicknote\Livewire;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
 use Livewire\Component;
-use Rarq\FilamentQuickNotes\Enums\DeletionType;
-use Rarq\FilamentQuickNotes\Models\FilamentQuickNote;
+use soufianelasmar\quicknote\Enums\DeletionType;
+use soufianelasmar\quicknote\Models\FilamentQuickNote;
 
 class QuickNotes extends Component
 {

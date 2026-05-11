@@ -1,12 +1,12 @@
 <?php
 
-namespace Rarq\FilamentQuickNotes;
+namespace soufianelasmar\quicknote;
 
 use Closure;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\View\PanelsRenderHook;
-use Rarq\FilamentQuickNotes\Livewire\QuickNotes;
+use soufianelasmar\quicknote\Livewire\QuickNotes;
 
 class FilamentQuickNotesPlugin implements Plugin
 {

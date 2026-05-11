@@ -64,7 +64,7 @@ This will publish the config file, publish and run the migrations.
 Open the `PanelProvider` where you want the Quick Notes button to appear and register the plugin:
 
 ```php
-use Rarq\FilamentQuickNotes\FilamentQuickNotesPlugin;
+use soufianelasmar\quicknote\FilamentQuickNotesPlugin;
 
 $panel->plugins([
     FilamentQuickNotesPlugin::make()
@@ -77,7 +77,7 @@ $panel->plugins([
 Add the `HasFilamentQuickNotes` trait to the Eloquent model that represents the authenticated user of your panel:
 
 ```php
-use Rarq\FilamentQuickNotes\Traits\HasFilamentQuickNotes;
+use soufianelasmar\quicknote\Traits\HasFilamentQuickNotes;
 
 class User extends Authenticatable
 {
@@ -95,8 +95,8 @@ After installation, a config file is published to `config/filament-quick-notes.p
 <?php
 
 use Filament\View\PanelsRenderHook;
-use Rarq\FilamentQuickNotes\Enums\DeletionType;
-use Rarq\FilamentQuickNotes\Models\FilamentQuickNote;
+use soufianelasmar\quicknote\Enums\DeletionType;
+use soufianelasmar\quicknote\Models\FilamentQuickNote;
 
 return [
     /*
