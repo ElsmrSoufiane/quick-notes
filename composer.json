@@ -1,7 +1,5 @@
 {
-    "name": "soufianelasmar/quicknote",
-     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "name": "soufianelasmar/quicknote", 
     "autoload": {
         "psr-4": {
             "Soufianelasmar\\Quicknote\\": "src/"
